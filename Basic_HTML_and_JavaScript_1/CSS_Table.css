@@ -1,0 +1,17 @@
+table {
+		border: darkred;
+		border-style: double;
+	
+}
+td:hover {
+	background-Color: Cyan;
+	color: olivegreen;
+}
+tr, th {
+	color: ##D2691E;
+	background-color: #7FFF00;
+}
+tr, td {
+	color: indianred;
+	background-color: lightgrey;
+}
