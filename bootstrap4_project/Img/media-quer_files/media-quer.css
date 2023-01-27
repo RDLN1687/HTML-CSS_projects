@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: tan;
+    }
+
+@media screen and (max-width: 600px) {
+        body {
+          background-color: olive;
+p {
+    font-weight: bold;
+    font-size: large;
+}
