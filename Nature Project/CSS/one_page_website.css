@@ -1,0 +1,36 @@
+body {
+    background-color:rgba(4, 43, 4, 0.763);
+    font-family:'Times New Roman', Times, serif;    
+}
+
+
+h1 {
+    padding: 2px;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px black;
+    color: rgb(210, 238, 161);
+}
+
+
+.wrap {
+    font-size: 20px;
+}
+.form {
+    width: fit-content;
+    border: 15px;
+    border: rgb(7, 8, 7);
+    border-style:dashed;
+    border-radius: 4px;
+}
+
+.photo img {
+    padding: 3px;
+    filter: grayscale(100%);
+    transition: 10ms;
+}
+
+.photo img:hover{
+    filter: grayscale(0%);
+}
